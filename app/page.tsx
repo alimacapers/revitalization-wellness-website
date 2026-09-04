@@ -45,7 +45,6 @@ export default function Home() {
           <source src="/community-hero.mp4" type="video/mp4" />
         </video>
         <div className="hero-shade" />
-        <div className="social-rail" aria-label="Social links"><a href="#contact">f</a><a href="#contact">𝕏</a></div>
         <div className="reference-hero-copy">
           <h1>Restored. Renewed.<br /><span>Reconnected.</span></h1>
           <p>Nurse-led community engagement and coaching that helps people build skills, strengthen wellness, and belong.</p>
