@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <main>
       <SiteHeader />
-      <InnerHero eyebrow="Who We Are" title="Nurse led. Community rooted." text="A wellness practice helping people build skills, confidence, health awareness, and belonging." image="/about-happy.jpg" alt="A young woman with Down syndrome connecting with someone during a video call" imagePosition="center 28%" />
+      <InnerHero eyebrow="Who We Are" title="Nurse led. Community rooted." text="A wellness practice helping people build skills, confidence, health awareness, and belonging." image="/about-hero.jpg" alt="Two women enjoying a happy meal and conversation together" imagePosition="center 46%" />
       <section className="inner-intro">
         <div><p className="pretitle">Welcome to RWC</p><h2>We help people belong—not simply visit.</h2></div>
         <div><p>Revitalization Wellness Consultants is a nurse-led wellness practice offering community engagement and community coaching for adults and transition-age youth with developmental disabilities across Fairfax County and Northern Virginia.</p><p>Founded by Taisha Holmes-Bulgin, BSN, RN, RWC pairs more than thirteen years of clinical experience with movement, creative arts, cooking, adaptive sports, digital life, faith, and community partnerships.</p></div>

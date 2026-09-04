@@ -129,9 +129,11 @@ img { display: block; }
 .message-card>p:not(.pretitle) { margin: -10px 0 28px; font-size: 14px; }
 .message-card form { display: grid; gap: 16px; }
 .message-card label>span:not(.consent span) { position: absolute; width: 1px; height: 1px; overflow: hidden; }
-.message-card input:not([type=checkbox]),.message-card textarea { width: 100%; border: 0; outline: 0; padding: 19px 22px; border-radius: 34px; color: var(--ink); background: #fff; font: 15px var(--body); box-shadow: 0 4px 11px rgba(0,0,0,.08); }
+.message-card input:not([type=checkbox]),.message-card textarea,.message-card select { width: 100%; border: 0; outline: 0; padding: 19px 22px; border-radius: 34px; color: var(--ink); background: #fff; font: 15px var(--body); box-shadow: 0 4px 11px rgba(0,0,0,.08); }
+.message-card select { appearance:none; background-image:linear-gradient(45deg,transparent 50%,#718274 50%),linear-gradient(135deg,#718274 50%,transparent 50%); background-position:calc(100% - 22px) 52%,calc(100% - 16px) 52%; background-size:6px 6px,6px 6px; background-repeat:no-repeat; }
 .message-card textarea { resize: vertical; border-radius: 28px; }
-.message-card input:focus,.message-card textarea:focus { box-shadow: 0 0 0 3px rgba(121,180,215,.4); }
+.message-card input:focus,.message-card textarea:focus,.message-card select:focus { box-shadow: 0 0 0 3px rgba(121,180,215,.4); }
+.website-field { position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; }
 .consent { display: flex; align-items: flex-start; gap: 11px; font-size: 11px; line-height: 1.45; }
 .consent input { margin-top: 3px; }
 .form-bottom { display: flex; align-items: center; gap: 20px; }
@@ -139,6 +141,11 @@ img { display: block; }
 .captcha-placeholder>span { font-size: 26px; }
 .captcha-placeholder b { margin-left:auto; color:#777; font-size:8px; }
 .form-bottom .lime-button { min-width: 165px; min-height: 58px; }
+.form-bottom .lime-button:disabled { cursor:wait; opacity:.7; }
+.secure-form-note { flex:1; color:#647568; font-size:12px; font-weight:700; }
+.form-status { min-height:18px; margin:0!important; font-size:12px!important; font-weight:700; }
+.form-status.success { color:#3e7b28; }
+.form-status.error { color:#a23b32; }
 .message-card form>small { color:#718274; font-size:9px; }
 .contact-actions-panel { display: grid; }
 .contact-actions-panel article { padding: 35px 0 45px; }
