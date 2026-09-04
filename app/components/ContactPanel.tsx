@@ -41,7 +41,7 @@ export function ContactPanel({ compact = false }: { compact?: boolean }) {
           <label className="consent"><input type="checkbox" name="consent" value="yes" required /> <span>I agree to the collection of this information for the purpose of responding to my request.</span></label>
           <div className="form-bottom"><span className="secure-form-note">Secure inquiry form</span><button type="submit" className="lime-button" disabled={status === 'sending'}>{status === 'sending' ? 'Sending…' : 'Submit'} <b>→</b></button></div>
           <p className={`form-status ${status}`} aria-live="polite">{status === 'success' ? 'Thank you. Your message has been sent.' : status === 'error' ? 'We could not send your message. Please call (917) 687-9317.' : ''}</p>
-          <small>Prefer to call? Reach RWC at (917) 687-9317.</small>
+          <small>Prefer direct contact? Call <a href="tel:+19176879317">(917) 687-9317</a> or email <a href="mailto:Revitalizationwellness@gmail.com">Revitalizationwellness@gmail.com</a>.</small>
         </form>
       </div>
       <div className="contact-actions-panel">

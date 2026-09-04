@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer>
       <div className="footer-top">
         <div><p className="pretitle">Get in Touch</p><h2>Contact Details</h2><span>Call or send a message to ask about programs, eligibility, scheduling, or referrals.</span></div>
-        <div className="footer-contact-item"><i>✆</i><div><h3>Talk<br />to Us</h3><p><a href="tel:+19176879317">(917) 687-9317</a><br />Program and referral inquiries</p></div></div>
+        <div className="footer-contact-item"><i>✆</i><div><h3>Talk<br />to Us</h3><p><a href="tel:+19176879317">(917) 687-9317</a><br /><a href="mailto:Revitalizationwellness@gmail.com">Revitalizationwellness@gmail.com</a><br />Program and referral inquiries</p></div></div>
         <div className="footer-contact-item"><i>●</i><div><h3>Locate<br />Us</h3><p>2121 Eisenhower Avenue, Suite 219<br />Alexandria, Virginia 22314</p></div></div>
       </div>
       <div className="footer-bottom">
