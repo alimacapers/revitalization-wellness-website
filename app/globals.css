@@ -197,7 +197,18 @@ footer { margin-top: 0; padding: 105px 15px 45px; background: var(--ice); }
 .service-list h2 { margin:0 0 15px; font-family:var(--display); font-size:39px; font-weight:400; }
 .service-list p { margin:0; color:#59656a; line-height:1.75; }
 .service-list ul { display:grid; grid-template-columns:1fr 1fr; gap:14px; list-style:none; padding:0; margin:0; }
-.service-list li { padding:13px 15px; color:#4e7e31; background:#effbe6; font-size:12px; font-weight:700; }
+.service-details li { color:#4e7e31; background:#effbe6; font-size:12px; }
+.service-details details { height:100%; }
+.service-details summary { min-height:46px; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:13px 15px; cursor:pointer; font-weight:700; list-style:none; transition:background .2s,color .2s; }
+.service-details summary::-webkit-details-marker { display:none; }
+.service-details summary:hover,.service-details summary:focus-visible { color:#315c1f; background:#e1f7d2; outline:none; }
+.service-details summary:focus-visible { box-shadow:inset 0 0 0 2px var(--green); }
+.service-details summary i { position:relative; flex:0 0 20px; width:20px; height:20px; border:1px solid #8fbd69; border-radius:50%; }
+.service-details summary i::before,.service-details summary i::after { content:''; position:absolute; left:5px; right:5px; top:9px; height:1.5px; background:currentColor; transition:transform .2s; }
+.service-details summary i::after { transform:rotate(90deg); }
+.service-details details[open] summary i::after { transform:rotate(0); }
+.service-details details[open] summary { color:#315c1f; background:#e1f7d2; }
+.service-details details>p { margin:0; padding:0 15px 15px; color:#53634e; font-size:11px; font-weight:500; line-height:1.6; }
 .journey-callout { display:grid; grid-template-columns:1fr 1fr; gap:80px; padding:85px clamp(35px,9vw,140px); color:#fff; background:var(--blue); }
 .journey-callout>p { margin:0; align-self:end; font-size:16px; line-height:1.85; }
 .funding-note { max-width:1250px; margin:auto; padding:105px 40px; }
