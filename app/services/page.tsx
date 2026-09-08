@@ -10,9 +10,9 @@ const serviceGroups = [
   {
     n: '01',
     title: 'Community Engagement',
-    image: '/service-community-new.jpg',
-    position: 'center',
-    alt: 'A young woman with Down syndrome connecting with a community partner over lunch',
+    image: '/service-nutrition-new.jpg',
+    position: 'center 24%',
+    alt: 'A smiling chef with Down syndrome building healthy cooking skills',
     text: 'Purposeful participation in everyday community life, shaped around ISP outcomes, choice, connection, confidence, and contribution.',
     items: [
       { title: 'Move & Thrive', description: 'Inclusive fitness, recreation, and movement activities that build confidence, healthy routines, and community connections.' },
@@ -38,9 +38,9 @@ const serviceGroups = [
   {
     n: '03',
     title: 'Nurse-Led Wellness',
-    image: '/service-nutrition-new.jpg',
-    position: 'center 24%',
-    alt: 'A smiling chef with Down syndrome building healthy cooking skills',
+    image: '/service-community-new.jpg',
+    position: 'center',
+    alt: 'A young woman with Down syndrome connecting with a community partner over lunch',
     text: 'Accessible health education and routines guided by a registered nurse and adapted to each person’s abilities, communication, and sensory needs.',
     items: [
       { title: 'Know Your Numbers', description: 'Easy-to-understand education about common health measures and why routine wellness checks matter.' },
