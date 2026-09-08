@@ -30,7 +30,7 @@ const serviceGroups = [
     text: 'Individualized coaching in real-world settings for communication, navigation, budgeting, self-advocacy, healthy routines, and meaningful roles.',
     items: [
       { title: 'Grocery & budget trips', description: 'Real-world practice with shopping lists, price comparisons, money management, healthy choices, and checkout skills.' },
-      { title: 'Event Crew job training', description: 'Supported opportunities to practice teamwork, following directions, customer service, setup, cleanup, and workplace habits.' },
+      { title: 'Career Exploration & Job Preparation', description: 'Person-centered support to explore different career interests, identify strengths, practice applications and interviews, and build workplace readiness skills.' },
       { title: 'Micro-Business Studio', description: 'A supportive space to explore simple business ideas, create products, practice marketing, and build entrepreneurship skills.' },
       { title: 'Faith & fellowship connections', description: 'Person-centered support for joining faith communities, fellowship groups, and meaningful social activities when desired.' },
     ],
